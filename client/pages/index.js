@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='h-full w-full bg-slate-800'>
+    <main className='h-full w-full bg-slate-600'>
       <section className='w-[90%] mx-auto'>
         <div className='text-start text-white p-10'>
         <h1 className='text-4xl font-bold'>Funded Projects</h1>
@@ -17,7 +17,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -27,7 +27,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -37,7 +37,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -67,7 +67,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
           <p className='text-lg '>Hear from the horses mouth and be inspired</p>
         </div>
 
-        <div className='h-[35vh] bg-violet-600 mb-5 rounded-xl w-full border border-solid border-white'>
+        <div className='h-[35vh] bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
           <div className='h-[20%] flex justify-between items-center'>
             <p className='text-lg text-center text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
             </p>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className='h-[35vh] bg-violet-600 mb-5 rounded-xl w-full border border-solid border-white'>
+        <div className='h-[35vh] bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
           <div className='h-[20%] flex justify-between items-center'>
             <p className='text-lg text-center text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
             </p>
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className='h-[35vh] bg-violet-600 mb-5 rounded-xl w-full border border-solid border-white'>
+        <div className='h-[35vh] bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
           <div className='h-[20%] flex justify-between items-center'>
             <p className='text-lg text-center text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
             </p>
@@ -128,7 +128,7 @@ export default function Home() {
             <div className='ong-project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -158,7 +158,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content bg-violet-600 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content bg-teal-500 px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
