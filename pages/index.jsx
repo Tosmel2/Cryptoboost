@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='h-full w-full bg-slate-600'>
+    <main className='h-full w-full bg-cyan-950'>
       <section className='why-cryptoboost w-[90%] mx-auto md:pt-8 md:pb-4'>
         <div className='text-center text-white py-8 px-0'>
         <h1 className='text-2xl md:text-4xl font-bold'>Why CryptoBoost?</h1>
@@ -14,7 +14,7 @@ export default function Home() {
 
         <div className='md:flex md:justify-between w-full'>
         <div className='w-full md:w-[40%] md:flex md:justify-center md:flex-col'>
-        <button type="button" className="md:w-[40%] mb-1 p-2 font-semibold rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">Why CryptoBoost?</button>
+          <button type="button" className="md:w-[40%] mb-1 p-2 font-semibold rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">Why CryptoBoost?</button>
           <p className='md:text-justify text-lg text-white md:my-0 my-2'>
             We Boost Startups with Decentralized Crowdfunding on the Blockchain Network. We make your tech startup dreams become a reality. Take action now to shape the future and make it a reality.
           </p>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = (props) => {
-  const { bgColor = 'bg-teal-900' } = props;
+  const { bgColor = 'bg-cyan-700' } = props;
   return (
     <>
       <footer className={`pt-10 w-full ${bgColor}`}>
