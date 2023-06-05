@@ -11,34 +11,34 @@ const SignUp = () => {
         <div className="space-y-4">
           <div className="space-y-2">
             <label for="fullname" className="block text-md font-bold text-white">Full Name</label>
-            <input type="text" name="fullname" id="fullname" placeholder="Tosmel Tungsten" className="w-full px-3 py-4 border rounded-md" />
+            <input type="text" name="fullname" id="fullname" placeholder="Tosmel Tungsten" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
           <div className="space-y-2">
             <label for="email" className="block text-md font-bold text-white">Email address</label>
-            <input type="email" name="email" id="email" placeholder="leroy@jenkins.com" className="w-full px-3 py-4 border rounded-md" />
+            <input type="email" name="email" id="email" placeholder="leroy@jenkins.com" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between">
               <label for="password" className="text-md font-bold text-white">Password</label>
             </div>
-            <input type="password" name="password" id="password" placeholder="*****" className="w-full px-3 py-4 border rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 focus:dark:border-violet-400" />
+            <input type="password" name="password" id="password" placeholder="*****" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
           <div className="space-y-2">
             <label for="wallet" className="block text-md font-bold text-white">Wallet address for cryptocurrency</label>
-            <input type="text" name="wallet" id="wallet" placeholder="ex. 0x4833d6919fEC09c4246f8AabFB001332fa4d2926" className="w-full px-3 py-4 border rounded-md" />
+            <input type="text" name="wallet" id="wallet" placeholder="ex. 0x4833d6919fEC09c4246f8AabFB001332fa4d2926" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
           <div className="space-y-2">
             <label for="email" className="block text-md font-bold text-white">Country of Residence</label>
-            <input type="text" name="country" id="country" placeholder="ex. Nigeria" className="w-full px-3 py-4 border rounded-md" />
+            <input type="text" name="country" id="country" placeholder="ex. Nigeria" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
           <div className="space-y-2">
             <label for="number" className="block text-md font-bold text-white">Phone number</label>
-            <input type="number" name="pnumber" id="pnumber" placeholder="ex. 2348068957966" className="w-full px-3 py-4 border rounded-md" />
+            <input type="number" name="pnumber" id="pnumber" placeholder="ex. 2348068957966" className="w-full px-3 py-4 border rounded-md focus:outline-none" />
           </div>
 
          <div>
