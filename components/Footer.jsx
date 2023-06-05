@@ -6,7 +6,7 @@ const Footer = (props) => {
     <>
       <footer className={`pt-10 w-full ${bgColor}`}>
         <div className='p-3 mb-5'>
-          <h1 className='uppercase text-3xl text-white font-bold text-center md:text-start w-[92%] mx-auto'><span className='text-teal-400 text-5xl'>C</span>rypto<span className='text-teal-400 text-5xl'>B</span>oost</h1>
+          <h1 className='uppercase text-3xl text-white font-bold text-center md:text-start w-[92%] mx-auto'><span className='text-sky-200 text-5xl'>C</span>rypto<span className='text-sky-200 text-5xl'>B</span>oost</h1>
         </div>
         <div className="w-[92%] mx-auto text-gray-800 md:flex md:flex-wrap md:justify-between">
   
