@@ -9,8 +9,8 @@ export default function Home() {
     <main className='h-full w-full bg-slate-600'>
       <section className='funding-projects md:py-10  w-[90%] mx-auto'>
         <div className='text-start text-white py-10 px-3 md:px-0'>
-        <h1 className='text-4xl font-bold'>Funded Projects</h1>
-        <p className='text-lg '>Succesful projects that have been funded through the platform</p>
+        <h1 className='text-2xl md:text-4xl font-bold'>Funded Projects</h1>
+        <p className='text-md md:texy-lg '>Succesful projects that have been funded through the platform</p>
         </div>
         <div className='projects-container md:flex md:justify-between md:items-center w-full md:flex-wrap'>
 
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+              <p className='text-md md:texy-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
 
       <section className='testimonial w-[90%]  mx-auto'>
         <div className='testimonial-header text-center text-white py-8 px-0'>
-          <h1 className='text-4xl font-bold'>Testimonials</h1>
+          <h1 className='text-2xl md:text-4xl font-bold'>Testimonials</h1>
           <p className='text-lg '>Hear from the horses mouth and be inspired</p>
         </div>
 
@@ -122,8 +122,8 @@ export default function Home() {
 
       <section className='ongoing-projects w-[90%] mx-auto md:py-10'>
         <div className='text-center text-white py-8 px-0'>
-        <h1 className='text-4xl font-bold'>Ongoing Projects</h1>
-        <p className='text-lg '>Lists of ongoing projects to invest in.</p>
+        <h1 className='text-2xl md:text-4xl font-bold'>Ongoing Projects</h1>
+        <p className='text-md md:texy-lg '>Lists of ongoing projects to invest in.</p>
         </div>
         <div className='ong-projects-container md:flex md:justify-between md:items-center w-full md:flex-wrap'>
 
