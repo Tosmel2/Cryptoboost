@@ -18,7 +18,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -28,7 +28,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -38,7 +38,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
 
         <div className='md:flex md:justify-between md:items-center md:h-[40vh]'>
-          <div className='md:w-[32%] p-4 leading-6 bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -106,7 +106,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-teal-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -131,7 +131,7 @@ export default function Home() {
             <div className='ong-project-card-image rounded-xl md:rounded-b-none -xl h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -141,7 +141,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -151,7 +151,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -161,7 +161,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -171,7 +171,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
@@ -181,7 +181,7 @@ export default function Home() {
             <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
               {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-teal-500 px-5 h-3/5 w-full'>
+            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
               <h1 className='text-2xl font-bold'>Project Title</h1>
               <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>

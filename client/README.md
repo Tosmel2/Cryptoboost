@@ -38,3 +38,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # web3-crowdfunding-DAPP_FE
 npx tailwindcss -i ./styles/globals.css -o ./styles/dist/globals-output.css --watch
+
+color trial
+
+bg-gradient-to-r from-cyan-500 to-blue-500
