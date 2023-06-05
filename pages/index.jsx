@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className='h-full w-full bg-slate-600'>
       <section className='funding-projects md:py-10  w-[90%] mx-auto'>
-        <div className='text-start text-white p-10 md:px-0'>
+        <div className='text-start text-white py-10 px-3 md:px-0'>
         <h1 className='text-4xl font-bold'>Funded Projects</h1>
         <p className='text-lg '>Succesful projects that have been funded through the platform</p>
         </div>
