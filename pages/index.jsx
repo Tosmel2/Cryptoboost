@@ -299,7 +299,7 @@ export default function Home() {
         </div>
 
         <div className='md:flex md:justify-between md:items-center md:h-[40vh]'>
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -310,7 +310,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -321,7 +321,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-cyan-500 to-blue-500 mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
