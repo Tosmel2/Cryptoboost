@@ -1,0 +1,23 @@
+.background-image {
+  background-image: url('../assets/images/whyboostbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.herobg {
+  background-image: url('../assets/images/22.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.possbg {
+  background-image: url('../assets/images/possbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
