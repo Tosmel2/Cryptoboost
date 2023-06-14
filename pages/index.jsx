@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
+import hashgraphImg from '../assets/images/hashgraph.png';
 import solanaImg from '../assets/images/solana.png';
+import polygonImg from '../assets/images/polygon.jpeg';
+import etherumImg from '../assets/images/etherum.jpeg';
+import defiImg from '../assets/images/defi.jpg';
+import btcImg from '../assets/images/btc.jpg';
 // import Navbar from '@/components/Navbar';
 
 
@@ -285,10 +290,6 @@ export default function Home() {
             </div>
           </div>
 
-
-
-
-
         </div>
       </section>
 
@@ -335,73 +336,55 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='ongoing-projects w-[90%] md:w-[85%] mx-auto md:py-10'>
-        <div className='text-center text-white py-8 px-0'>
-        <h1 className='text-2xl md:text-4xl font-bold'>Ongoing Projects</h1>
-        <p className='text-md md:texy-lg '>Lists of ongoing projects to invest in.</p>
-        </div>
-        <div className='ong-projects-container md:flex md:justify-between md:items-center w-full md:flex-wrap'>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='ong-project-card-image rounded-xl md:rounded-b-none -xl h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
+      <section className='sponsorer w-[90%] md:w-[50%] mx-auto md:py-10'>
+        <div className='py-6'>
+          <div className='flex justify-between mb-12'>
+            <div className='mr-2 border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={hashgraphImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <div className='mr-2 border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={solanaImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
-          </div>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
-            </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            </div>
-          </div>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
-            </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <div className='border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={polygonImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
           </div>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
+          <div className='flex justify-between mb-4'>
+            <div className='mr-2 border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={defiImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <div className='mr-2 border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={etherumImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
-          </div>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
-            </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            </div>
-          </div>
-
-          <div className='ong-project-card md:w-[32%] mb-5 rounded-xl w-full h-[50vh] border border-solid border-white'>
-            <div className='project-card-image rounded-xl md:rounded-b-none h-2/5 w-full bg-slate-800'>
-              {/* <Image src='./assets/images/solana.png' className='w-full h-full object-cover rounded-br-md rounded-bl-md' /> */}
-            </div>
-            <div className='ong-project-card-content rounded-b-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-5 h-3/5 w-full'>
-              <h1 className='text-2xl font-bold'>Project Title</h1>
-              <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <div className='border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>
+              <Image
+                src={btcImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
             </div>
           </div>
-
+          <p className='text-center text-white font-bold mt-3 uppercase'>Trusted Partners</p>
         </div>
       </section>
 
