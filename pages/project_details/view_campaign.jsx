@@ -1,18 +1,18 @@
 import Footer from '@/components/Footer'
 import React from 'react'
 import Image from 'next/image'
-import solanaImg from '../assets/images/solana.png';
+// import solanaImg from '../assets/images/solana.png';
 
 const ViewCampaign = () => {
   return (
     <>
     <main>
       <div className='rounded-2xl w-full h-[50vh] p-3 md:p-8'>
-      <Image
+      {/* <Image
         src={solanaImg}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
-      />
+      /> */}
       </div>
       <div className='md:flex md:justify-between md:items-center py-2 px-4 md:px-8'>
         <div className='pb-5 md:w-1/2'>
