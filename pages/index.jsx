@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
+import FundedProjects from '@/components/FundedProjects'
 import hashgraphImg from '../assets/images/hashgraph.png';
 import solanaImg from '../assets/images/solana.png';
 import polygonImg from '../assets/images/polygon.jpeg';
 import etherumImg from '../assets/images/etherum.jpeg';
 import defiImg from '../assets/images/defi.jpg';
 import btcImg from '../assets/images/btc.jpg';
+import Testimonials from '@/components/Testimonials';
 // import Navbar from '@/components/Navbar';
 
 
@@ -20,6 +22,26 @@ export default function Home() {
   const handleCardClick = (cardNumber) => {
     setActiveCard(cardNumber);
   };
+
+
+  const stats = [
+        {
+            data: "10K+",
+            title: "Projects"
+        },
+        {
+            data: "$150M+",
+            title: "Capital Raised"
+        },
+        {
+            data: "40K+",
+            title: "Participants"
+        },
+        {
+            data: "30M+",
+            title: "Funded Ideas"
+        },
+    ]
   
   return (
     <main className='h-full w-full bg-[#080512]'>
@@ -34,11 +56,68 @@ export default function Home() {
           </div>
         </div>
       </section> */}
+
+      <section className='w-full py-10'>
+        <div className='md:h-[50vh] h-full border w-[90%] md:w-[80%] mx-auto md:flex md:justify-between'>
+          <div className='md:w-[45%] text-white'>
+            <h3 className='mb-2 uppercase '>community-based and open source</h3>
+            <h1 className='font-bold uppercase text-xl md:text-3xl'>unlocking new possibilities in tech</h1>
+            <p>
+              Find Backers who will bring your dream ideas into life. Pitch, sell yourself, and put yourself forward.
+            </p>
+
+            <div className="mt-2">
+                <ul className="flex items-center justify-between flex-wrap ">
+                    {
+                        stats.map((item, idx) => (
+                            <li key={idx} className="text-start mb-2">
+                                <h4 className="text-md md:text-2xl text-purple-800 font-semibold">{item.data}</h4>
+                                <p className="text-purple-600 font-medium">{item.title}</p>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+
+            <a href="#" className='bg-white rounded-3xl text-black px-5 py-2 font-semibold'>Learn More</a>
+          </div>
+
+          <div className='md:w-[40%] flex flex-wrap justify-center mt-5 md:mt-0'>
+            <div className='md:w-[45%] h-24 w-24 mr-3 rounded-full md:rounded-2xl'>
+              <Image
+                src={hashgraphImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
+            </div>
+            <div className='md:w-[45%] h-24 w-24 rounded-full md:rounded-2xl'>
+              <Image
+                src={hashgraphImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
+            </div>
+
+            <div className='md:w-[45%] h-24 w-24 mt-3 rounded-full md:rounded-2xl'>
+              <Image
+                src={hashgraphImg}
+                className='object-cover h-full w-full object-center rounded-2xl'
+                quality={100}
+              />
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
       <section className='why-cryptoboost bg-cover possbg pb-12 md:pb-16' >
         <div className='w-[90%] md:w-[85%] mx-auto md:pt-8 md:pb-6 '>
         
         <div className='text-center text-white py-8 px-0'>
         <h1 className='inter-font text-2xl md:text-3xl font-bold uppercase'>At the center of <br /> cryptoboost.</h1>
+        <div className='w-32 h-1 text-center inline-flex mt-0 rounded-3xl bg-pink-600'></div>
         </div>
 
         <div className='md:flex md:justify-between w-full'>
@@ -66,10 +145,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='funding-projects md:py-4  w-[90%] md:w-[85%] mx-auto'>
+      {/* <section className='funding-projects md:py-4  w-[90%] md:w-[85%] mx-auto'>
         <div className='text-center text-white py-10 px-3 md:px-0'>
         <h1 className='inter-font text-2xl md:text-4xl font-bold'>Funded Projects</h1>
-        {/* <p className='text-md md:texy-lg '>Succesful projects that have been funded through the platform</p> */}
         </div>
         
         <div className='projects-container md:flex md:justify-between md:items-center w-full md:flex-wrap'>
@@ -291,16 +369,20 @@ export default function Home() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
-      <section className='testimonial w-[90%] md:w-[85%]  mx-auto'>
+
+      <FundedProjects />
+      
+      {/* <section className='testimonial w-[90%] md:w-[85%]  mx-auto'>
         <div className='testimonial-header text-center text-white py-8 px-0'>
           <h1 className='text-2xl md:text-4xl font-bold'>Testimonials</h1>
           <p className='text-lg '>Hear from the horses mouth and be inspired</p>
+          <div className='w-32 h-1 text-center inline-flex mt-0 rounded-3xl bg-pink-600'></div>
         </div>
 
         <div className='md:flex md:justify-between md:items-center md:h-[40vh]'>
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='w-full p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -311,7 +393,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='w-full p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl z-10 border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -322,7 +404,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='md:w-[32%] p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl w-full border border-solid border-white'>
+          <div className='w-full p-4 leading-6 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mb-5 rounded-xl z-20 border border-solid border-white'>
             <div className='h-[20%] flex justify-between items-center'>
               <p className='text-lg text-center md:text-start text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
               </p>
@@ -334,9 +416,14 @@ export default function Home() {
           </div>
 
         </div>
-      </section>
+      </section> */}
+      <Testimonials />
 
-      <section className='sponsorer w-[90%] md:w-[50%] mx-auto md:py-10'>
+      <section className='sponsorer w-[90%] md:w-[50%] mx-auto pb-10'>
+      <div className='testimonial-header text-center text-white py-8 px-0'>
+          <h1 className='text-2xl md:text-4xl font-bold'>Trusted Partners</h1>
+          <div className='w-32 h-1 text-center inline-flex mt-0 rounded-3xl bg-pink-600'></div>
+        </div>
         <div className='py-6'>
           <div className='flex justify-between mb-12'>
             <div className='mr-2 border shadow-lg shadow-slate-500 rounded-lg w-44 h-28'>

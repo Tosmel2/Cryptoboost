@@ -1,0 +1,25 @@
+.stacked-divs {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.stacked-divs > div {
+  position: relative;
+  width: 100%;
+  right: 0;
+  transition: all 0.3s ease;
+}
+
+.stacked-divs > div:hover {
+  z-index: 20;
+}
+
+.stacked-divs > div:hover ~ div {
+  width: 25%;
+  z-index: 1;
+}
+
+.stacked-divs > div:hover ~ div:hover {
+  width: 100%;
+}
