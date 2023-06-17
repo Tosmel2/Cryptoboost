@@ -83,14 +83,14 @@ export default function Home() {
           </div>
 
           <div className='md:w-[40%] flex flex-wrap justify-center mt-5 md:mt-0'>
-            <div className='md:w-[45%] h-24 w-24 mr-3 rounded-full md:rounded-2xl'>
+            <div className='w-[45%] mr-3 rounded-full md:rounded-2xl'>
               <Image
                 src={hashgraphImg}
                 className='object-cover h-full w-full object-center rounded-2xl'
                 quality={100}
               />
             </div>
-            <div className='md:w-[45%] h-24 w-24 rounded-full md:rounded-2xl'>
+            <div className='w-[45%] rounded-full md:rounded-2xl'>
               <Image
                 src={hashgraphImg}
                 className='object-cover h-full w-full object-center rounded-2xl'
@@ -98,7 +98,7 @@ export default function Home() {
               />
             </div>
 
-            <div className='md:w-[45%] h-24 w-24 mt-3 rounded-full md:rounded-2xl'>
+            <div className='w-[45%] mt-3 rounded-full md:rounded-2xl'>
               <Image
                 src={hashgraphImg}
                 className='object-cover h-full w-full object-center rounded-2xl'

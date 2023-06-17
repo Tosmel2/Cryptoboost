@@ -56,7 +56,7 @@ const FundedProjects = () => {
               e.preventDefault();
               setSelectedTab('ongoing');
             }}
-            class={`sm:px-4 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
+            className={`sm:px-4 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
               selectedTab === 'ongoing' ? `py-3 px-5 bg-orange-200 rounded-3xl mb-3 text-white` : 'border-gray-200'
             } tracking-wider`}
           >
@@ -68,7 +68,7 @@ const FundedProjects = () => {
               e.preventDefault();
               setSelectedTab('upcoming');
             }}
-            class={`sm:px-4 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
+            className={`sm:px-4 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
               selectedTab === 'upcoming' ? `py-3 px-5 bg-orange-200 rounded-3xl mb-3` : 'border-gray-200'
             } tracking-wider`}
           >
@@ -80,7 +80,7 @@ const FundedProjects = () => {
               e.preventDefault();
               setSelectedTab('completed');
             }}
-            class={`sm:px-6 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
+            className={`sm:px-6 py-3 sm:w-auto justify-center sm:justify-start title-font text-gray-400 font-bold inline-flex items-center leading-none ${
               selectedTab === 'completed' ? `py-3 px-5 bg-orange-200 rounded-3xl mb-3` : 'border-gray-200'
             } tracking-wider`}
           >
