@@ -8,10 +8,21 @@ import Footer from './Footer';
 
 const SignupModal = (props) => {
   const [showPassword, setShowPassword] = useState(false);
+  const [password, setPassword] = useState('');
+
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleTogglePassword = (e) => {
+    e.preventDefault();
+    setShowPassword(!showPassword);
+  };
   // const {className, children, bgImage} = props;
   return (
     <>
-      <div className="h-screen flex justify-center items-center bg-gray-400">
+      <div className="h-screen flex justify-center items-center bg-[#150741] bg-opacity-75">
         <div className="absolute z-10 w-[90%] rounded-3xl md:rounded-[2rem] h-[60vh] md:h-[80vh] md:w-[60%] border shadow-xl ">
             <Image
                 src={modalImageMobile}
@@ -47,28 +58,25 @@ const SignupModal = (props) => {
             <a rel="noopener noreferrer" href="#" className="text-xs hover:underline text-white">Forgot password?</a>
           </div>
           <div className="relative">
-            <input type={showPassword ? "text" : "password"} name="password" id="password" placeholder="*****" className="w-full p-2 mb-3 rounded-3xl focus:outline-none pl-4 outline-pink-500" />
+            <input type={showPassword ? "text" : "password"} 
+            value={password}
+            onChange={handlePasswordChange}
+            name="password" 
+            id="password" placeholder="*****" 
+            className="w-full p-2 mb-3 rounded-3xl focus:outline-none pl-4 outline-pink-500"
+             />
             <div className="absolute inset-y-0 right-2 flex items-center">
+            {/* <button onClick={handleTogglePassword} className='text-sm absolute top-3 right-2 text-purple-600 focus:outline-none'>
+              {showPassword ? 'Hide' : 'Show'}
+            </button> */}
               <button
-                className="outline-none focus:outline-none"
-                onClick={() => setShowPassword(!showPassword)}
+                className="outline-none focus:outline-none pb-3 pr-2"
+                onClick={handleTogglePassword}
               >
                 {showPassword ? (
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                    <path
-                      fillRule="evenodd"
-                      d="M17.71 9.29a1 1 0 010 1.42l-1.42 1.42a1 1 0 01-1.42 0L13 11.41l-1.42 1.42a1 1 0 01-1.42 0L9 12.41l-1.42 1.42a1 1 0 01-1.42 0L4.29 12.7a1 1 0 010-1.42L6 10.59l1.42-1.42a1 1 0 011.42 0L10 8.59l1.42-1.42a1 1 0 011.42 0l2.42 2.42zM10 4a6 6 0 100 12 6 6 0 000-12zm0 10a4 4 0 110-8 4 4 0 010 8z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <svg width="18x" height="18px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path stroke="#833DA8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 3 18 18"></path><path fill="#833DA8" fill-rule="evenodd" d="M5.4 6.23c-.44.33-.843.678-1.21 1.032a15.088 15.088 0 0 0-3.001 4.11 1.435 1.435 0 0 0 0 1.255 15.088 15.088 0 0 0 3 4.111C5.94 18.423 8.518 20 12 20c2.236 0 4.1-.65 5.61-1.562l-3.944-3.943a3 3 0 0 1-4.161-4.161L5.401 6.229zm15.266 9.608a15.06 15.06 0 0 0 2.145-3.21 1.435 1.435 0 0 0 0-1.255 15.086 15.086 0 0 0-3-4.111C18.06 5.577 15.483 4 12 4a10.83 10.83 0 0 0-2.808.363l11.474 11.475z" clip-rule="evenodd"></path></g></svg>
                 ) : (
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                    <path
-                      fillRule="evenodd"
-                      d="M10 4a6 6 0 100 12 6 6 0 000-12zM2 10a8 8 0 1116 0 8 8 0 01-16 0zm6-2a1 1 0 012 0v4a1 1 0 11-2 0V8z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 12c0-2.25 3.75-7.5 10.5-7.5S22.5 9.75 22.5 12s-3.75 7.5-10.5 7.5S1.5 14.25 1.5 12zM12 16.75a4.75 4.75 0 1 0 0-9.5 4.75 4.75 0 0 0 0 9.5zM14.7 12a2.7 2.7 0 1 1-5.4 0 2.7 2.7 0 0 1 5.4 0z" fill="#833DA8"></path></g></svg>
                 )}
               </button>
             </div>

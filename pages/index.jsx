@@ -9,6 +9,9 @@ import polygonImg from '../assets/images/polygon.jpeg';
 import etherumImg from '../assets/images/etherum.jpeg';
 import defiImg from '../assets/images/defi.jpg';
 import btcImg from '../assets/images/btc.jpg';
+import mmImg from '../assets/images/mm.png';
+import m2Img from '../assets/images/m2.png';
+import m3Img from '../assets/images/m3.png';
 import Testimonials from '@/components/Testimonials';
 // import Navbar from '@/components/Navbar';
 
@@ -57,20 +60,20 @@ export default function Home() {
         </div>
       </section> */}
 
-      <section className='w-full py-10'>
-        <div className='md:h-[50vh] h-full border w-[90%] md:w-[80%] mx-auto md:flex md:justify-between'>
+      <section className='w-full py-6'>
+        <div className='md:h-[50vh] py-5 h-full w-[90%] md:w-[80%] mx-auto md:flex md:justify-between'>
           <div className='md:w-[45%] text-white'>
-            <h3 className='mb-2 uppercase '>community-based and open source</h3>
-            <h1 className='font-bold uppercase text-xl md:text-3xl'>unlocking new possibilities in tech</h1>
-            <p>
+            <h3 className='pb-2 uppercase '>community-based and open source</h3>
+            <h1 className='font-bold uppercase text-xl md:text-3xl mb-2'>unlocking new possibilities in tech</h1>
+            <p className='pb-2'>
               Find Backers who will bring your dream ideas into life. Pitch, sell yourself, and put yourself forward.
             </p>
 
-            <div className="mt-2">
+            <div className="py-4">
                 <ul className="flex items-center justify-between flex-wrap ">
                     {
                         stats.map((item, idx) => (
-                            <li key={idx} className="text-start mb-2">
+                            <li key={idx} className="text-start pb-2">
                                 <h4 className="text-md md:text-2xl text-purple-800 font-semibold">{item.data}</h4>
                                 <p className="text-purple-600 font-medium">{item.title}</p>
                             </li>
@@ -83,25 +86,25 @@ export default function Home() {
           </div>
 
           <div className='md:w-[40%] flex flex-wrap justify-center mt-5 md:mt-0'>
-            <div className='w-[45%] mr-3 rounded-full md:rounded-2xl'>
+            <div className='md:w-[45%] md:mr-3 mr-1 h-28 w-28 md:h-[45%] md:rounded-2xl'>
               <Image
-                src={hashgraphImg}
-                className='object-cover h-full w-full object-center rounded-2xl'
+                src={mmImg}
+                className='object-cover border-4 border-purple-600 h-full w-full rounded-full object-center md:rounded-2xl'
                 quality={100}
               />
             </div>
-            <div className='w-[45%] rounded-full md:rounded-2xl'>
+            <div className='md:w-[45%] mr-1 h-28 w-28 md:h-[45%] md:rounded-2xl'>
               <Image
-                src={hashgraphImg}
-                className='object-cover h-full w-full object-center rounded-2xl'
+                src={m2Img}
+                className='object-cover border-4 border-purple-600 h-full w-full rounded-full object-center md:rounded-2xl'
                 quality={100}
               />
             </div>
 
-            <div className='w-[45%] mt-3 rounded-full md:rounded-2xl'>
+            <div className='md:mt-1 md:w-[45%] h-28 w-28 md:h-[45%] md:rounded-2xl'>
               <Image
-                src={hashgraphImg}
-                className='object-cover h-full w-full object-center rounded-2xl'
+                src={m3Img}
+                className='object-cover border-4 border-purple-600 h-full w-full object-center rounded-full md:rounded-2xl'
                 quality={100}
               />
             </div>

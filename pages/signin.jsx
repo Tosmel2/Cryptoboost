@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import modalImageMobile from '../assets/images/ExtractedSm.png';
 import modalImageLarge from '../assets/images/ExtractedBg.png';
 import Image from 'next/image';
-import Button from './Button';
+import Button from '@/components/Button';
 
 
 const SignIn = () => {
