@@ -50,17 +50,17 @@ export default function Home() {
   return (
     <main className='h-full w-full bg-[#080512]'>
       <Nav />
-      <section className='herobg h-[50vh] md:h-[80vh]'>
+      <section className='herobg h-[660vh] md:h-[80vh]'>
         <div className='w-[90%] mx-auto md:pt-8 md:pb-6'>
-          <div className='flex justify-center md:justify-start items-center h-[50vh]'>
+          <div className='flex justify-center md:justify-start items-center h-[60vh]'>
             <div className='w-full md:w-[50%] md:flex md:justify-center md:flex-col'>
               <h1 className='inter-font text-2xl text-center md:text-start md:text-3xl font-bold uppercase text-white'>Decentralized Crowdfunding <br /> for Tech Startups.
               </h1>
 
-              <div>
-                <Button type='submit' className='md:w-[35%] w-full mt-5 mr-3 px-8 py-2 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Create project</Button>
+              <div className='text-center'>
+                <Button type='submit' className='md:w-[35%] w-[70%] mt-5 mr-3 px-8 py-2 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Create project</Button>
 
-                <Button type='submit' className='md:w-[30%] w-full mt-5 px-8 py-2 font-semibold rounded-3xl text-white border-2 border-white hover:bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Contribute</Button>
+                <Button type='submit' className='md:w-[30%] w-[70%] mt-5 px-8 py-2 font-semibold rounded-3xl text-white border-2 border-white hover:bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Contribute</Button>
               </div>
               
             </div>
@@ -72,8 +72,8 @@ export default function Home() {
         <div className='md:h-[50vh] py-5 h-full w-[90%] md:w-[80%] mx-auto md:flex md:justify-between'>
           <div className='md:w-[45%] text-white'>
             <h3 className='pb-2 uppercase '>community-based and open source</h3>
-            <h1 className='font-bold uppercase text-xl md:text-3xl mb-2'>unlocking new possibilities in tech</h1>
-            <p className='pb-2'>
+            <h1 className='font-bold uppercase text-xl md:text-3xl mb-2 py-2'>unlocking new possibilities in tech</h1>
+            <p className='py-3'>
               Find Backers who will bring your dream ideas into life. Pitch, sell yourself, and put yourself forward.
             </p>
 
@@ -90,7 +90,7 @@ export default function Home() {
                 </ul>
             </div>
 
-            <a href="#" className='bg-white rounded-3xl text-black px-5 py-2 font-semibold'>Learn More</a>
+            <a href="#" className='bg-white rounded-3xl text-black px-5 py-2 mt-2 font-semibold'>Learn More</a>
           </div>
 
           <div className='md:w-[40%] flex flex-wrap justify-center mt-5 md:mt-0'>
