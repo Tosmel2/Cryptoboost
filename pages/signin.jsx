@@ -84,7 +84,7 @@ const SignIn = () => {
 
         <Button type='submit' className='w-full px-8 py-2 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Proceed</Button>
 
-        <p className='text-center px-3'>Don't have an account? {''} <a href="/signup" className="text-[#8054DE] font-bold">Sign Up</a> </p>
+        <p className='text-center px-3'>Don't have an account? {''} <a href="/signup/1" className="text-[#8054DE] font-bold">Sign Up</a> </p>
       </div>
      </form>
         </div>

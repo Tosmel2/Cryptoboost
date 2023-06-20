@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 import Image from 'next/image'
 import solanaImg from '../assets/images/solana.png';
-// import polygonImg from '../assets/images/polygon.jpeg';
+import studionft from '../assets/images/studionft.png';
 // import etherumImg from '../assets/images/etherum.jpeg';
 // import defiImg from '../assets/images/defi.jpg';
 // import btcImg from '../assets/images/btc.jpg';
@@ -110,7 +110,7 @@ export const AllProjects = () => {
           <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
             <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
             <Image
-            src={solanaImg}
+            src={studionft}
             className='object-cover h-full w-full object-center rounded-2xl'
             quality={100}
             />
@@ -182,7 +182,7 @@ export const AllProjects = () => {
           <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
             <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
             <Image
-            src={solanaImg}
+            src={studionft}
             className='object-cover h-full w-full object-center rounded-2xl'
             quality={100}
             />
@@ -254,7 +254,7 @@ export const AllProjects = () => {
           <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] md:h-[70vh] border border-solid border-white'>
             <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
             <Image
-            src={solanaImg}
+            src={studionft}
             className='object-cover h-full w-full object-center rounded-2xl'
             quality={100}
             />
@@ -373,7 +373,7 @@ export const OngoingProjects = () => {
       <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
@@ -445,7 +445,7 @@ export const OngoingProjects = () => {
       <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
@@ -529,7 +529,7 @@ export const UpcomingProjects= () => {
         <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] md:h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
@@ -601,7 +601,7 @@ export const UpcomingProjects= () => {
       <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] md:h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
@@ -645,7 +645,7 @@ export const CompletedProjects = () => {
         <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] md:h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
@@ -717,7 +717,7 @@ export const CompletedProjects = () => {
       <div className='project-card md:w-[32%] mb-5 rounded-2xl w-full h-[70vh] md:h-[70vh] border border-solid border-white'>
         <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
         <Image
-        src={solanaImg}
+        src={studionft}
         className='object-cover h-full w-full object-center rounded-2xl'
         quality={100}
         />
