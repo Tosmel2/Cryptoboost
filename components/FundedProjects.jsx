@@ -37,7 +37,7 @@ const FundedProjects = () => {
           <div className='w-32 h-1 text-center inline-flex mt-0 rounded-3xl bg-pink-600'></div>
         </div>
 
-        <div className='projects-container py-3 flex md:justify-evenly justify-center items-center w-full flex-wrap'>
+        <div className='projects-container flex md:justify-evenly justify-center items-center w-full flex-wrap'>
           <a
             href="/"
             onClick={(e) => {

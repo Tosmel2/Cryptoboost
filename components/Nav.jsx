@@ -102,7 +102,7 @@ const Nav = () => {
           </button>
           {isMenuOpen && (
             <div class="absolute top-0 left-0 w-full">
-              <div class="p-5 bg-[#110A27] border rounded shadow-sm">
+              <div class="p-5 bg-[#110A27] rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a
