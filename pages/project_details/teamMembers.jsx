@@ -336,17 +336,17 @@ const TeamMembers = () => {
         <form action="" className="space-y-8">
           <div className="space-y-4">
             <div className="space-y-1">
-              <label for="email" className="block text-sm font-bold text-orange-400">Email address</label>
+              <label htmlFor="email" className="block text-sm font-bold text-orange-400">Email address</label>
               <input type="email" name="email" id="email" placeholder="crypto@boost.com" className="bg-orange-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />
             </div>
 
             <div className="space-y-1">
-              <label for="number" className="block text-sm font-bold text-orange-400">Phone Number</label>
+              <label htmlFor="number" className="block text-sm font-bold text-orange-400">Phone Number</label>
               <input type="number" name="number" id="number" placeholder="+2340068957966" className="bg-orange-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />
             </div>
 
             <div className="space-y-1">
-              <label for="message" className="block text-sm font-bold text-orange-400">Drop a message</label>
+              <label htmlFor="message" className="block text-sm font-bold text-orange-400">Drop a message</label>
               <textarea type="text" name="message" rows={10} cols={30} placeholder="Tell us what you feel about the project" className="bg-orange-50 w-full p-2 border rounded-lg focus:outline-none pl-4 resize-none " />
             </div>
 

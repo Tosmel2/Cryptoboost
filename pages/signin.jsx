@@ -45,15 +45,15 @@ const SignIn = () => {
           </div>
           {/* Some overlay things go in here */}
           <form action="" className="space-y-2 mb-12 md:w-full">
-      <div className="space-y-2">
-        <div className="">
-          <label htmlFor="email" className="block text-md font-bold text-white">Email address</label>
-          <input type="email" name="email" id="email" placeholder="cryptoboost@gmail.com" className="w-full p-2 rounded-3xl focus:outline-none pl-4 outline-[#8054DE]" />
-        </div>
+          <div className="space-y-2">
+            <div className="">
+            <label htmlFor="email" className="block text-md font-medium text-[#8054DE]">Email address</label>
+            <input type="email" name="email" id="email" placeholder="cryptoboost@gmail.com" className="w-full p-2 rounded-3xl focus:outline-none pl-4 outline-[#8054DE] border-[#8054DE] border-2 bg-purple-300" required />
+          </div>
 
-        <div className="pb-3">
+         <div className="pb-3">
           <div className="flex justify-between items-center">
-            <label htmlFor="password" className="leading-1 text-md font-bold text-white">Password</label>
+            <label htmlFor="password" className="leading-1 text-md font-medium text-[#8054DE]">Password</label>
             <a rel="noopener noreferrer" href="#" className="text-xs hover:underline text-white">Forgot password?</a>
           </div>
           <div className="relative">
@@ -62,8 +62,8 @@ const SignIn = () => {
             onChange={handlePasswordChange}
             name="password" 
             id="password" placeholder="*****" 
-            className="w-full p-2 mb-3 rounded-3xl focus:outline-none pl-4 outline-pink-500"
-             />
+            className="w-full p-2 mb-3 rounded-3xl focus:outline-none pl-4 outline-[#8054DE] border-[#8054DE] border-2 bg-purple-300"
+             required />
             <div className="absolute inset-y-0 right-2 flex items-center">
             {/* <button onClick={handleTogglePassword} className='text-sm absolute top-3 right-2 text-purple-600 focus:outline-none'>
               {showPassword ? 'Hide' : 'Show'}
@@ -83,6 +83,8 @@ const SignIn = () => {
         </div>
 
         <Button type='submit' className='w-full px-8 py-2 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Proceed</Button>
+
+        <p className='text-center px-3'>Don't have an account? {''} <a href="/signup" className="text-[#8054DE] font-bold">Sign Up</a> </p>
       </div>
      </form>
         </div>
