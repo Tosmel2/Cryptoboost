@@ -8,20 +8,16 @@ const ViewCampaign = () => {
   return (
     <>
     <main>
-      <div className='rounded-2xl w-full h-[70vh] p-3 md:p-8'>
-      <Image
-        src={roboImg}
-        className='object-cover h-full w-full object-center rounded-2xl'
-        quality={100}
-      />
-      </div>
-      <div className='md:flex md:justify-between md:items-center py-2 px-4 md:px-8'>
-        <div className='pb-5 md:w-1/2'>
-          <p className='text-justify md:px-3 text-[#4B4B4B]'>
-            RoboWorks is a tech start-up that designs and builds robots for a variety of industries, including manufacturing, construction, and logistics. The company's mission is to help businesses increase efficiency, reduce costs, and improve safety by leveraging robotic technology. RoboWorks offers a range of robotic solutions, from robotic arms and automated machinery to mobile robots and drones. Each solution is tailored to the specific needs of the customer, taking into account factors like production volume, safety requirements, and environmental conditions. RoboWorks is committed to staying at the forefront of robotics technology, continuously researching and developing new solutions to meet the evolving needs of their customers. 
-          </p>
-        </div>
-        <div className='md:w-1/2 py-3 md:px-3'>
+      <section className='w-full md:flex p-3 md:p-8'>
+          <div className='rounded-2xl w-[60%] h-[50vh] py-3 md:px-3'>
+          <Image
+            src={roboImg}
+            className='object-cover h-full w-full object-center rounded-2xl'
+            quality={100}
+          />
+          </div>
+
+          <div className='md:w-1/2 py-3 md:px-3'>
           <div>
             <div className='flex justify-between items-center inter-font'>
               <h2 className='text-2xl  font-bold'>Bromuno</h2>
@@ -58,6 +54,22 @@ const ViewCampaign = () => {
           {/* </div> */}
         </div>
         </div>
+      </section>
+      
+      <div className='md:flex md:justify-between md:items-center py-2 px-4 md:px-8'>
+        <div className='pb-5 md:w-1/2'>
+          <p className='text-justify md:px-3 text-[#4B4B4B]'>
+            Bromuno is a tech start-up that designs and builds robots for a variety of industries, including manufacturing, construction, and logistics. The company's mission is to help businesses increase efficiency, reduce costs, and improve safety by leveraging robotic technology. RoboWorks offers a range of robotic solutions, from robotic arms and automated machinery to mobile robots and drones. Each solution is tailored to the specific needs of the customer, taking into account factors like production volume, safety requirements, and environmental conditions. RoboWorks is committed to staying at the forefront of robotics technology, continuously researching and developing new solutions to meet the evolving needs of their customers. 
+          </p>
+        </div>
+
+        <div className='h-64 bg-pink-300 rounded-md w-[40%]'>
+          {/* <div class="w-full bg-gray-200 rounded-full h-4">
+            <div class="bg-pink-600 h-4 rounded-l-lg" style={{width:'70%'}}></div>
+          </div> */}
+
+        </div>
+       
       </div>
       <Footer />
     </main>
