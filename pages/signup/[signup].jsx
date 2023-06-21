@@ -145,7 +145,7 @@ const SignUp = () => {
                 <form action="" onSubmit={handleSubmit} className="space-y-2 mb-12 md:w-full">
                   <div className="space-y-2">
                     <div className="">
-                      <label htmlFor="text" className="block text-md font-medium text-[#8054DE]">Full Name</label>
+                      <label htmlFor="fullname" className="block text-md font-medium text-[#8054DE]">Full Name</label>
                       <input type="text" name="text" id="text" placeholder="Tosin Adewale" className="w-full p-2 rounded-3xl focus:outline-none pl-4 border-[#8054DE] border-2 bg-purple-300" required />
                     </div>
 
@@ -199,7 +199,7 @@ const SignUp = () => {
           <form action="" onSubmit={handleSubmit} className="space-y-2 mb-12 md:w-full">
             <div className="space-y-2">
               <div className="">
-                <label htmlFor="text" className="block text-md font-medium text-[#8054DE]">Country</label>
+                <label htmlFor="country" className="block text-md font-medium text-[#8054DE]">Country</label>
                 <input type="text" name="text" id="text" placeholder="Nigeria" className="w-full p-2 rounded-3xl focus:outline-none pl-4 border-[#8054DE] border-2 bg-purple-300" required />
               </div>
 
