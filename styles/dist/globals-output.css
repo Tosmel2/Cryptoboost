@@ -1948,6 +1948,10 @@ body {
     width: 100%;
   }
 
+  .md\:w-\[90\%\] {
+    width: 90%;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }

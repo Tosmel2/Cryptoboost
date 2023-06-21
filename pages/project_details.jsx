@@ -2,14 +2,14 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 
 import Image from 'next/image'
-import solanaImg from '../assets/images/solana.png';
+// import solanaImg from '../assets/images/solana.png';
 import m1Img from '../assets/images/m1.png';
 import m2Img from '../assets/images/m2.png';
 import m3Img from '../assets/images/m3.png';
 import m4Img from '../assets/images/m4.png';
 import m5Img from '../assets/images/m5.png';
 import mmImg from '../assets/images/mm.png';
-import studionft from '../assets/images/studionft.png';
+import incentivesImg from '../assets/images/incentives.png';
 
 
 
@@ -235,7 +235,7 @@ export const RewardIncentives= () => {
       <section  className='md:flex md:justify-between w-[90%] mx-auto md:p-2'>
         <div className='w-full md:w-[35%] h-[50vh] rounded-lg py-3'>
           <Image
-            src={solanaImg}
+            src={incentivesImg}
             className='object-cover h-full w-full object-center rounded-md'
             quality={100}
             />
