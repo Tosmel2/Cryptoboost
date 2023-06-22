@@ -58,7 +58,7 @@ export default function Home() {
               </h1>
 
               <div className='text-center'>
-                <Button type='submit' className='md:w-[40%] w-[70%] mt-5 mr-3 px-6 py-2.5 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#080512]'>Create project</Button>
+                <Button type='submit' className='md:w-[40%] w-[70%] mt-5 mr-3 px-6 py-2.5 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#080512]'><a href="/create_campaign">Create project</a></Button>
 
                 <Button type='submit' className='md:w-[30%] w-[70%] mt-5 px-8 py-2 font-semibold rounded-3xl text-white border-2 border-white hover:bg-gradient-to-r from-[#84399F] to-[#7B57E1]'>Contribute</Button>
               </div>
