@@ -3,7 +3,7 @@ import React from 'react'
 
 const Campaign = () => {
   return (
-    <div className='h-full w-full bg-[#080512] py-5'>
+    <div className='h-full w-full bg-[#120b29] py-5'>
       <section className='md:py-4  w-[90%] md:w-[85%] mx-auto'>
       <div className='text-center text-white py-10 px-3 md:px-0'>
           <h1 className='text-2xl md:text-4xl font-bold'>All Campaign Projects</h1>
