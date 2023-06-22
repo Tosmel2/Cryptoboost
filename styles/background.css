@@ -7,7 +7,8 @@
 }
 
 .herobg {
-  background-image: url('../assets/images/heroImage.svg');
+  background-image: url('../assets/images/heroobg.svg');
+  /* background-image: url('../assets/images/heroImage.svg'); */
   /* background-image: url('../assets/images/22.png'); */
   background-repeat: no-repeat;
   background-size: cover;

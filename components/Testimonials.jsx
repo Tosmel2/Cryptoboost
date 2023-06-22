@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <>
-    <section className='w-full bg-[#080512] h-[70vh] pt-10'>
+    <section className='w-full bg-[#120b29] h-[70vh] pt-10'>
       <div className='testimonial-header text-center text-white py-8 px-0'>
           <h1 className='text-2xl md:text-4xl font-bold'>What people say about cryptoboost</h1>
           <div className='w-32 h-1 text-center inline-flex mt-0 rounded-3xl bg-pink-600'></div>

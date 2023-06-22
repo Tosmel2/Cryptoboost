@@ -48,12 +48,13 @@ export default function Home() {
     ]
   
   return (
-    <main className='h-full w-full bg-[#080512]'>
+    <main className='h-full w-full bg-[#120b29]'>
       <Nav />
       <section className='herobg h-[60vh] md:h-[90vh]'>
-        <div className='md:w-[80%] w-[90%] mx-auto md:pt-8 md:pb-6'>
+        {/* <div className='w-full h-full bg-[#080512] opacity-50'></div> */}
+        <div className='md:w-[80%] w-[90%] mx-auto md:pt-8 md:pb-6 '>
           <div className='flex justify-center md:justify-start items-center h-[60vh]'>
-            <div className='w-full md:w-[45%] md:flex md:justify-center md:flex-col pb-5'>
+            <div className='w-full md:w-[45%] md:flex md:justify-center md:flex-col'>
               <h1 className='inter-font text-2xl text-center md:text-4xl font-bold uppercase text-white'>Decentralized Crowdfunding <br /> for Tech Startups.
               </h1>
 

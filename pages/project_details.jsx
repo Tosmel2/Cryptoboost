@@ -35,7 +35,7 @@ const ProjectDetails = () => {
   
   return (
     <>
-    <main className='h-full w-full bg-[#080512]'>
+    <main className='h-full w-full bg-[#120b29]'>
         <section className='funding-projects md:py-4  w-[90%] md:w-[85%] mx-auto'>
         <div className='text-center text-white py-10 px-3 md:px-0'>
           <h1 className='text-2xl md:text-4xl font-bold'>Project Overview</h1>
@@ -126,7 +126,7 @@ export const ProjectOverview = () => {
     <>
       <div className='md:flex md:justify-between md:items-center py-2 px-4 md:px-8'>
         <div className='flex justify-center h-screen'>
-          <p className='text-justify text-lg px-5 text-white'>
+          <p className='md:text-justify text-center text-lg px-5 text-white'>
             Bromuno is a tech start-up that designs and builds robots for a variety of industries, including manufacturing, construction, and logistics. The company's mission is to help businesses increase efficiency, reduce costs, and improve safety by leveraging robotic technology. RoboWorks offers a range of robotic solutions, from robotic arms and automated machinery to mobile robots and drones. Each solution is tailored to the specific needs of the customer, taking into account factors like production volume, safety requirements, and environmental conditions. RoboWorks is committed to staying at the forefront of robotics technology, continuously researching and developing new solutions to meet the evolving needs of their customers. 
           </p>
         </div>
@@ -139,7 +139,7 @@ export const Contributors = () => {
   return (
     <>
       <section className='contributors py-10'>
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?1" /> 
@@ -153,7 +153,7 @@ export const Contributors = () => {
           </div>
         </div>
 
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?3" /> 
@@ -167,7 +167,7 @@ export const Contributors = () => {
           </div>
         </div>
 
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?2" /> 
@@ -181,7 +181,7 @@ export const Contributors = () => {
           </div>
         </div>
 
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?5" /> 
@@ -195,7 +195,7 @@ export const Contributors = () => {
           </div>
         </div>
 
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?4" /> 
@@ -209,7 +209,7 @@ export const Contributors = () => {
           </div>
         </div>
 
-        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-orange-100 rounded-lg">
+        <div className="md:flex md:justify-between items-center w-[95%] mx-auto p-2 mb-5 bg-pink-200 rounded-lg">
           <div className='md:flex md:justify-between md:w-[35%] md:items-center'>
             <div className='flex items-center'>
               <img alt="" className="w-10 h-10 mr-2 border rounded-full dark:bg-gray-500 dark:border-gray-700" src="https://source.unsplash.com/40x40/?portrait?1" /> 
@@ -433,15 +433,15 @@ export const ContactInfo = () => {
           <p className='mb-2'>Fill up this form and our team will get back to you within 24 hours.</p>
 
           <p className='flex w-full items-center mb-2'><span className='mr-1'>
-          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z" fill="#e28436"></path></g></svg>
+          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z" fill="#DB2777"></path></g></svg>
             </span> <span> +2348068957966</span></p>
 
           <p className='flex w-full items-center mb-2'><span className='mr-1'>
-          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Communication / Mail"> <path id="Vector" d="M4 6L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123C13.8926 10.6123 17.8101 7.60594 20 6M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z" stroke="#e28436" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Communication / Mail"> <path id="Vector" d="M4 6L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123C13.8926 10.6123 17.8101 7.60594 20 6M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
             </span> <span> cryptoboost@gmail.com</span></p>
 
           <p className='flex w-full items-center mb-3'><span className='mr-1'>
-            <svg fill="#e28436" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="1"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z"></path> </g></svg>
+            <svg fill="#DB2777" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="1"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z"></path> </g></svg>
             </span> <span> 1st CryptoBoost winner, Lagos, Nigeria</span>
           </p>
 
@@ -486,22 +486,22 @@ export const ContactInfo = () => {
         <form action="" className="space-y-4">
           <div className="space-y-4">
             <div className="space-y-1">
-              <label htmlFor="email" className="block text-sm font-bold text-orange-400">Email address</label>
+              <label htmlFor="email" className="block text-sm font-bold text-pink-600">Email address</label>
               <input type="email" name="email" id="email" placeholder="crypto@boost.com" className="bg-orange-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />
             </div>
 
             <div className="space-y-1">
-              <label htmlFor="number" className="block text-sm font-bold text-orange-400">Phone Number</label>
+              <label htmlFor="number" className="block text-sm font-bold text-pink-600">Phone Number</label>
               <input type="number" name="number" id="number" placeholder="+2340068957966" className="bg-orange-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />
             </div>
 
             <div className="space-y-1">
-              <label htmlFor="message" className="block text-sm font-bold text-orange-400">Drop a message</label>
+              <label htmlFor="message" className="block text-sm font-bold text-pink-600">Drop a message</label>
               <textarea type="text" name="message" rows={10} cols={20} placeholder="Tell us what you feel about the project" className="bg-orange-50 w-full p-2 border rounded-lg focus:outline-none pl-4 resize-none " />
             </div>
 
             <div className='pt-2'>
-            <button type="button" className="md:w-[60%] w-full px-8 py-2 font-semibold rounded-3xl bg-[#D0E8DE]">Send message</button>
+            <button type="button" className="md:w-[60%] w-full px-8 py-2 font-semibold rounded-3xl bg-pink-700 text-white">Send message</button>
             </div>
             
           </div>
