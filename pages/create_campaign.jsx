@@ -56,7 +56,7 @@ const CreateCampaign = () => {
               <input type="text" name="cimage" placeholder="Place image URL of your campaign" className="w-full bg-transparent p-4 h-10 border rounded-3xl focus:outline-none pl-4 text-white" />
             </div>
 
-            <div className='pt-10 text-center'>
+            <div className='py-10 text-center'>
             <button type="button" className="md:w-[60%] w-full px-8 py-3 font-bold rounded-3xl bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% text-white">Submit new Campaign</button>
             </div>
             
