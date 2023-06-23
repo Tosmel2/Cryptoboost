@@ -119,9 +119,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Web3 LMS</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Web3 LMS</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(1%)</p>
+              <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
               </div>
@@ -133,7 +133,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -155,9 +155,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>RoboWorks</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>RoboWorks</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(1%)</p>
+              <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
               </div>
@@ -169,7 +169,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -191,9 +191,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(25%)</p>
+              <p className='font-semibold py-2 text-black'>progress(25%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
               </div>
@@ -205,7 +205,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -227,9 +227,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(1%)</p>
+              <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
               </div>
@@ -241,7 +241,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -263,9 +263,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(100%)</p>
+              <p className='font-semibold py-2 text-black'>progress(100%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
               </div>
@@ -277,7 +277,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -299,9 +299,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(25%)</p>
+              <p className='font-semibold py-2 text-black'>progress(25%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
               </div>
@@ -313,7 +313,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -335,9 +335,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(100%)</p>
+              <p className='font-semibold py-2 text-black'>progress(100%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
               </div>
@@ -349,7 +349,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -371,9 +371,9 @@ export const AllProjects = () => {
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-              <p className='font-semibold py-2'>progress(1%)</p>
+              <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
                 <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
               </div>
@@ -385,7 +385,7 @@ export const AllProjects = () => {
 
               <div className='flex justify-between items-center pt-2'>
                 <p>
-                  <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+                  <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
                 </p>
                 <div className='flex'>
                   <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -418,9 +418,9 @@ export const OngoingProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(25%)</p>
+          <p className='font-semibold py-2 text-black'>progress(25%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
           </div>
@@ -432,7 +432,7 @@ export const OngoingProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -454,9 +454,9 @@ export const OngoingProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(25%)</p>
+          <p className='font-semibold py-2 text-black'>progress(25%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
           </div>
@@ -468,7 +468,7 @@ export const OngoingProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -490,9 +490,9 @@ export const OngoingProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(25%)</p>
+          <p className='font-semibold py-2 text-black'>progress(25%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
           </div>
@@ -504,7 +504,7 @@ export const OngoingProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -526,9 +526,9 @@ export const OngoingProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(25%)</p>
+          <p className='font-semibold py-2 text-black'>progress(25%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
           </div>
@@ -540,7 +540,7 @@ export const OngoingProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -562,9 +562,9 @@ export const OngoingProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-green-200 text-green-800 font-bold absolute bottom-2 right-3'>Ongoing</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(25%)</p>
+          <p className='font-semibold py-2 text-black'>progress(25%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'25%'}}></div>
           </div>
@@ -576,7 +576,7 @@ export const OngoingProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -610,9 +610,9 @@ export const UpcomingProjects= () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(1%)</p>
+          <p className='font-semibold py-2 text-black'>progress(1%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
           </div>
@@ -624,7 +624,7 @@ export const UpcomingProjects= () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -646,9 +646,9 @@ export const UpcomingProjects= () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(1%)</p>
+          <p className='font-semibold py-2 text-black'>progress(1%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
           </div>
@@ -660,7 +660,7 @@ export const UpcomingProjects= () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -682,9 +682,9 @@ export const UpcomingProjects= () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(1%)</p>
+          <p className='font-semibold py-2 text-black'>progress(1%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
           </div>
@@ -696,7 +696,7 @@ export const UpcomingProjects= () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -718,9 +718,9 @@ export const UpcomingProjects= () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(1%)</p>
+          <p className='font-semibold py-2 text-black'>progress(1%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-l-lg" style={{width:'1%'}}></div>
           </div>
@@ -732,7 +732,7 @@ export const UpcomingProjects= () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -798,9 +798,9 @@ export const CompletedProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(100%)</p>
+          <p className='font-semibold py-2 text-black'>progress(100%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
           </div>
@@ -812,7 +812,7 @@ export const CompletedProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -834,9 +834,9 @@ export const CompletedProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(100%)</p>
+          <p className='font-semibold py-2 text-black'>progress(100%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
           </div>
@@ -848,7 +848,7 @@ export const CompletedProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -870,9 +870,9 @@ export const CompletedProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(100%)</p>
+          <p className='font-semibold py-2 text-black'>progress(100%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
           </div>
@@ -884,7 +884,7 @@ export const CompletedProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
@@ -906,9 +906,9 @@ export const CompletedProjects = () => {
         <p className='rounded-3xl px-5 py-1 text-sm text-center bg-red-400 text-red-800 font-bold absolute bottom-2 right-3'>Ended</p>
         </div>
         <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-          <h2 className='text-2xl font-bold py-2'>Bromuno</h2>
+          <h2 className='text-2xl font-bold py-2 text-black'>Bromuno</h2>
           <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
-          <p className='font-semibold py-2'>progress(100%)</p>
+          <p className='font-semibold py-2 text-black'>progress(100%)</p>
           <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
             <div class="bg-sky-400 h-4 rounded-full" style={{width:'100%'}}></div>
           </div>
@@ -920,7 +920,7 @@ export const CompletedProjects = () => {
 
           <div className='flex justify-between items-center pt-2'>
             <p>
-              <span className='font-semibold text-sm mb-1'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
+              <span className='font-semibold text-sm mb-1 text-black'>Token Sale:</span> <br /> <span className='font-bold text-orange-700'>00:07:26:00</span>
             </p>
             <div className='flex'>
               <span className='cursor-pointer rounded-3xl mr-1 px-5 bg-orange-300 py-2'>
