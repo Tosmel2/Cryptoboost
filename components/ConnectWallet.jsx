@@ -38,7 +38,7 @@ const ConnectWalletButton = () => {
   };
 
   useEffect(() => {
-    const loadWalletConnection = async () => {
+    const loadWalletConnect = async () => {
       try {
         const accounts = await ethereum.request({
           method: "eth_accounts",
@@ -54,7 +54,7 @@ const ConnectWalletButton = () => {
       }
     };
 
-    loadWalletConnection();
+    loadWalletConnect();
     checkAndAddHederaNetwork();
   }, []);
 
