@@ -291,8 +291,8 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
-              Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
+              <p className='text-black'>
+              Tosin Adewale, the Software Engineer(Fullstack) at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>
         </div>
@@ -315,8 +315,8 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
-              Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
+              <p className='text-black'>
+              Henry Hasel, the UI/UX Designer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>
         </div>
@@ -339,8 +339,8 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
-              Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
+              <p className='text-black'>
+              Mohammed Am, the product designer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>
         </div>
@@ -363,8 +363,8 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
-              Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
+              <p className='text-black'>
+              Chike 3ill, the smart contract at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>
         </div>
@@ -387,8 +387,8 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
-              Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
+              <p className='text-black'>
+              Emmanuel Dev, the Backend developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>
         </div>
@@ -411,7 +411,7 @@ export const TeamMembers= () => {
               <p className='text-[#842ea3]'>
                 Description
               </p>
-              <p>
+              <p className='text-black'>
               Tosin Adewale, the software developer at RoboWorks, is a computer science graduate from Stanford University. He has extensive experience in software development, having previously worked at Google and Amazon. He specializes in developing algorithms and control systems for robotics applications.
             </p>
           </div>

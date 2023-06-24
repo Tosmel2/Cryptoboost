@@ -1,4 +1,3 @@
-import { AllProjects, UpcomingProjects } from '@/components/FundedProjects'
 import React from 'react'
 
 const CreateCampaign = () => {
