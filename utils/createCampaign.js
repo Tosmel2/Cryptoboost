@@ -16,7 +16,7 @@ const createCampaign = async ({ campaignTitle, campaignDescription }) => {
     const campaign = await cryptoBoost.createCampaign(title, description);
     return "Campaign created successfully!";
   } catch (error) {
-    return `Error: ${error.message}`;
+    return `This Transaction failed`;
   }
 };
 
