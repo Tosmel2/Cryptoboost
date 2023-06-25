@@ -1939,6 +1939,10 @@ body {
     width: 100%;
   }
 
+  .md\:w-44 {
+    width: 11rem;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }
@@ -1993,6 +1997,10 @@ body {
 
   .md\:rounded-\[2rem\] {
     border-radius: 2rem;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
   }
 
   .md\:rounded-b-none {

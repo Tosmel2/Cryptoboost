@@ -105,25 +105,25 @@ export default function Home() {
           </div>
 
           <div className='md:w-[40%] flex flex-wrap justify-center mt-5 md:mt-0'>
-            <div className='md:w-[45%] md:mr-3 mr-1 h-28 w-28 md:h-[45%] md:rounded-2xl'>
+            <div className='md:w-44 md:mr-3 mr-1 h-28 w-28 md:h-44 md:rounded-full'>
               <Image
                 src={mmImg}
-                className='object-cover border-2 border-purple-600 h-full w-full rounded-full object-center md:rounded-2xl'
+                className='object-cover border-2 border-purple-600 h-full w-full rounded-full object-center md:rounded-full'
                 quality={100}
               />
             </div>
-            <div className='md:w-[45%] mr-1 h-28 w-28 md:h-[45%] md:rounded-2xl'>
+            <div className='md:w-44 h-28 w-28 md:h-44 md:rounded-full'>
               <Image
                 src={m2Img}
-                className='object-cover border-2 border-purple-600 h-full w-full rounded-full object-center md:rounded-2xl'
+                className='object-cover border-2 border-purple-600 h-full w-full rounded-full object-center md:rounded-full'
                 quality={100}
               />
             </div>
 
-            <div className='md:mt-1 md:w-[45%] h-28 w-28 md:h-[45%] md:rounded-2xl'>
+            <div className=' md:w-44 h-28 w-28 md:h-44 md:rounded-full'>
               <Image
                 src={m3Img}
-                className='object-cover border-2 border-purple-600 h-full w-full object-center rounded-full md:rounded-2xl'
+                className='object-cover border-2 border-purple-600 h-full w-full object-center rounded-full md:rounded-full'
                 quality={100}
               />
             </div>
