@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import { abi } from "./abi";
 
-const contractAddress = "0x45989d3583f0ac991753bacda42dbc4f46eb3f2b";
+const contractAddress = "0xd1575bf719c3fce54b11217123e0a1a172ab6e0d";
 
 const createCampaign = async ({ campaignTitle, campaignDescription }) => {
   try {
