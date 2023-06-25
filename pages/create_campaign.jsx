@@ -1,4 +1,3 @@
-import { AllProjects, UpcomingProjects } from "@/components/FundedProjects";
 import React, { useState } from "react";
 import { createCampaign } from "@/utils/createCampaign";
 

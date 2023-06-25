@@ -125,7 +125,7 @@ export const ProjectOverview = () => {
   return (
     <>
       <div className='md:flex md:justify-between md:items-center py-2 px-4 md:px-8'>
-        <div className='flex justify-center h-screen'>
+        <div className='flex justify-center md:h-screen h-full'>
           <p className='md:text-justify text-center text-lg px-5 text-white'>
             Bromuno is a tech start-up that designs and builds robots for a variety of industries, including manufacturing, construction, and logistics. The company's mission is to help businesses increase efficiency, reduce costs, and improve safety by leveraging robotic technology. RoboWorks offers a range of robotic solutions, from robotic arms and automated machinery to mobile robots and drones. Each solution is tailored to the specific needs of the customer, taking into account factors like production volume, safety requirements, and environmental conditions. RoboWorks is committed to staying at the forefront of robotics technology, continuously researching and developing new solutions to meet the evolving needs of their customers. 
           </p>

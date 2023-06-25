@@ -144,20 +144,22 @@ const Nav = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/about"
                         class="font-medium tracking-wide text-white transition-colors duration-200"
                       >
                         ABOUT US
                       </a>
                     </li>
-                    <li>
+
+                    <ConnectWalletButton />
+                    {/* <li>
                       <a
                         href="/"
                         class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-3xl shadow-md bg-pink-600 focus:shadow-outline focus:outline-none"
                       >
                         Connect Wallet
                       </a>
-                    </li>
+                    </li> */}
 
                     <li>
                       <a
