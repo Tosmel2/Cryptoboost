@@ -6,6 +6,8 @@ import modalImageLarge from '../../assets/images/ExtractedBg.png';
 import Image from 'next/image';
 import Button from '@/components/Button';
 
+import axios from 'axios';
+
 const SignUp = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState('');
