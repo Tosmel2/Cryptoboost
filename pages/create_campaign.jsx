@@ -86,7 +86,6 @@ const CreateCampaign = () => {
                 />
               </div>
 
-
               <div className="w-full flex h-20 bg-purple-600 rounded-md">
                 <span className="hidden md:block">
                   <svg
@@ -131,11 +130,22 @@ const CreateCampaign = () => {
                 </h1>
               </div>
 
-            <div className="space-y-1">
-              <label htmlFor="message" className="block text-sm font-bold text-white md:p-2">Campaign Description*</label>
-              <textarea type="text" name="message" rows={10} cols={50} placeholder="write about the project" className="w-full p-2 border bg-transparent rounded-lg focus:outline-none pl-4 resize-none text-white" />
-            </div>
-
+              <div className="space-y-1">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-bold text-white md:p-2"
+                >
+                  Campaign Description*
+                </label>
+                <textarea
+                  type="text"
+                  name="message"
+                  rows={10}
+                  cols={50}
+                  placeholder="write about the project"
+                  className="w-full p-2 border bg-transparent rounded-lg focus:outline-none pl-4 resize-none text-white"
+                />
+              </div>
 
               <div className="flex flex-wrap justify-between">
                 <div className="space-y-1 md:w-[48%] w-full pb-3 md:pb-0">
@@ -148,7 +158,7 @@ const CreateCampaign = () => {
                   <input
                     type="number"
                     name="goal"
-                    placeholder="ETH 0.05"
+                    placeholder="Hbar 0.05"
                     className="w-full p-2 border rounded-3xl bg-transparent focus:outline-none pl-4 text-white"
                   />
                 </div>
