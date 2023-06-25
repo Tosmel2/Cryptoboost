@@ -7,25 +7,18 @@ const ConnectWalletButton = () => {
 
   const connectWallet = async () => {
     try {
-      if (!isConnected) {
+      if (isConnected) {
+        disconnectWallet();
+      } else {
         const accounts = await ethereum.request({
           method: "eth_requestAccounts",
         });
 
         if (accounts.length > 0) {
-          const selectedAccount = await ethereum.request({
-            method: "wallet_requestPermissions",
-            params: [{ eth_accounts: {} }],
-          });
-
-          if (selectedAccount.length > 0) {
-            setAccount(selectedAccount[0]);
-            setIsConnected(true);
-            console.log(`Selected Account: ${selectedAccount[0]}`);
-          }
+          setAccount(accounts[0]);
+          setIsConnected(true);
+          console.log(`Selected Account: ${accounts[0]}`);
         }
-      } else {
-        disconnectWallet();
       }
     } catch (error) {
       console.log(`Error: ${error.message}`);
