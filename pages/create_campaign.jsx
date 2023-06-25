@@ -6,10 +6,24 @@ import { createCampaign } from "@/utils/createCampaign";
 const CreateCampaign = () => {
   const [campaignTitle, setCampaignTitle] = useState("");
   const [projectDescription, setProjectDescription] = useState("");
+  const [campaignExecuted, setIsCampaignExecuted] = useState(false);
+  const [feedBackMsg, setFeedBackMessage] = useState("");
 
-  const handleSubmit = () => {
-    createCampaign(campaignTitle, projectDescription);
+  const handleSubmit = async () => {
+    try {
+      const feedback = await createCampaign({
+        campaignTitle,
+        campaignDescription: projectDescription,
+      });
+      setCampaignTitle("");
+      setProjectDescription("");
+      setFeedBackMessage(feedback);
+      setIsCampaignExecuted(true);
+    } catch (error) {
+      console.log(error);
+    }
   };
+
   return (
     <div className="h-full w-full bg-[#120b29] py-5">
       <section className="md:py-4  w-[90%] md:w-[85%] mx-auto">
@@ -173,6 +187,13 @@ const CreateCampaign = () => {
                 >
                   Submit new Campaign
                 </button>
+                <p
+                  className={`text-[16px] italic font-bold text-white mt-5 ${
+                    campaignExecuted ? "" : "hidden"
+                  }`}
+                >
+                  {feedBackMsg}
+                </p>
               </div>
             </div>
           </form>
