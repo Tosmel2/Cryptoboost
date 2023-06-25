@@ -242,7 +242,7 @@ export const RewardIncentives= () => {
         </div>
         <div className='md:w-[60%] w-full text-white'>
           <h2 className='inter-font text-xl md:text-2xl font-bold mb-4'>
-            As a tech start-up, Cryptoboost can offer various rewards and 
+            As a tech start-up, RoboWorks can offer various rewards and 
             incentives to its investors. Here are a few options:
           </h2>
           <ul className=''>

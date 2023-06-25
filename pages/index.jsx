@@ -54,11 +54,11 @@ export default function Home() {
         {/* <div className='w-full h-full bg-[#080512] opacity-50'></div> */}
         <div className='md:w-[80%] w-[90%] mx-auto md:pt-8 md:pb-6 '>
           <div className='flex justify-center md:justify-start items-center h-[60vh]'>
-            <div className='w-full md:w-[45%] md:flex md:justify-center md:flex-col'>
-              <h1 className='inter-font text-2xl text-center md:text-4xl font-bold uppercase text-white'>Decentralized Crowdfunding <br /> for Tech Startups.
+            <div className='w-full md:w-[45%] md:flex md:justify-center md:flex-col md:pt-10'>
+              <h1 className='inter-font text-2xl text-center md:text-left md:text-4xl font-bold uppercase text-white'>Decentralized Crowdfunding <br /> for Tech Startups.
               </h1>
 
-              <div className='text-center'>
+              <div className='text-center md:text-left'>
                 <Button type='submit' className='md:w-[40%] w-[70%] mt-5 mr-3 px-6 py-2.5 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#080512]'><a href="/create_campaign">Create project</a></Button>
 
                 <Button type='submit' className='md:w-[30%] w-[70%] mt-5 px-8 py-2 font-semibold rounded-3xl text-white border-2 border-white hover:bg-gradient-to-r from-[#84399F] to-[#7B57E1]'><a href="/donate">Contribute</a></Button>
@@ -67,6 +67,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='w-full h-20 absolute bottom-0 right-0 bg-gradient-to-t from-[#120b29]'>
+
+        </div>
+        {/* <div className='w-full h-24'>
+          <Image
+            src={bottomhero}
+            className='object-cover h-full w-full object-center'
+            quality={100}
+          />
+        </div> */}
       </section>
 
       <section className='w-full py-3 md:py-8'>
@@ -83,8 +93,8 @@ export default function Home() {
                     {
                         stats.map((item, idx) => (
                             <li key={idx} className="text-start pb-2">
-                                <h4 className="text-md md:text-2xl text-purple-800 font-semibold">{item.data}</h4>
-                                <p className="text-purple-600 font-medium">{item.title}</p>
+                                <h4 className="text-md md:text-2xl text-purple-400 font-semibold">{item.data}</h4>
+                                <p className="text-purple-400 font-medium">{item.title}</p>
                             </li>
                         ))
                     }
@@ -124,7 +134,7 @@ export default function Home() {
 
 
 
-      <section className='why-cryptoboost bg-cover possbg pb-12 md:pb-16' >
+      <section id='discover' className='why-cryptoboost bg-cover possbg pb-12 md:pb-16' >
         <div className='w-[90%] md:w-[85%] mx-auto md:pt-8 md:pb-6 '>
         
         <div className='text-center text-white py-8 px-0'>
@@ -135,7 +145,7 @@ export default function Home() {
         <div className='md:flex md:justify-between w-full'>
         <div className='w-full md:w-[40%] md:flex md:justify-center md:flex-col'>
           <button type="button" className="md:w-[40%] mb-1 p-2 font-semibold rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% text-white">Why CryptoBoost?</button>
-          <p className='md:text-justif text-lg md:text-xl text-white md:my-0 my-2'>
+          <p className='md:text-justif pt-3 text-lg md:text-xl text-white md:my-0 my-2'>
             We Empower Startups with Decentralized Crowdfunding on the Blockchain Network. We make your tech startup dreams become a reality. Take action now to shape the future and make it a reality.
           </p>
         </div>
