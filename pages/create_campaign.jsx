@@ -25,7 +25,7 @@ const CreateCampaign = () => {
             </div>
 
             <div className="space-y-1">
-              <label htmlFor="message" className="block text-sm font-bold text-white md:p-2">Project Description*</label>
+              <label htmlFor="message" className="block text-sm font-bold text-white md:p-2">Campaign Description*</label>
               <textarea type="text" name="message" rows={10} cols={50} placeholder="write about the project" className="w-full p-2 border bg-transparent rounded-lg focus:outline-none pl-4 resize-none text-white" />
             </div>
 

@@ -9,7 +9,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="mx-auto md:w-[90%] w-full  md:pt-5">
+    <div class="mx-auto md:w-[90%] w-full  md:py-3">
       {/* <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 md:pt-5"> */}
       <div class="relative flex items-center justify-between px-3">
         <a href="/" class="inline-flex items-center">

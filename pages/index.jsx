@@ -55,8 +55,14 @@ export default function Home() {
         <div className='md:w-[80%] w-[90%] mx-auto md:pt-8 md:pb-6 '>
           <div className='flex justify-center md:justify-start items-center h-[60vh]'>
             <div className='w-full md:w-[45%] md:flex md:justify-center md:flex-col md:pt-10'>
-              <h1 className='inter-font text-2xl text-center md:text-left md:text-4xl font-bold uppercase text-white'>Decentralized Crowdfunding <br /> for Tech Startups.
+              <div className='leading-3 text-center'>
+              <h1 className='inter-font text-2xl text-center md:text-left md:text-4xl font-bold uppercase text-white'>Decentralized</h1>
+              <h1 className='inter-font text-2xl text-center md:text-left md:text-4xl font-bold uppercase text-white'>Crowdfunding
               </h1>
+              <h1 className='inter-font text-2xl text-center md:text-left md:text-4xl font-bold uppercase text-white'>for Tech Startup.
+              </h1>
+              </div>
+              
 
               <div className='text-center md:text-left'>
                 <Button type='submit' className='md:w-[40%] w-[70%] mt-5 mr-3 px-6 py-2.5 font-semibold rounded-3xl text-white bg-gradient-to-r from-[#84399F] to-[#080512]'><a href="/create_campaign">Create project</a></Button>
@@ -67,16 +73,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='w-full h-20 absolute bottom-0 right-0 bg-gradient-to-t from-[#120b29]'>
+        <div className='hidden md:block w-full h-20 absolute bottom-0 right-0 bg-gradient-to-t from-[#120b29]'>
 
         </div>
-        {/* <div className='w-full h-24'>
-          <Image
-            src={bottomhero}
-            className='object-cover h-full w-full object-center'
-            quality={100}
-          />
-        </div> */}
       </section>
 
       <section className='w-full py-3 md:py-8'>
