@@ -1,4 +1,3 @@
-"use client";
 import { AllProjects, UpcomingProjects } from "@/components/FundedProjects";
 import React, { useState } from "react";
 import { createCampaign } from "@/utils/createCampaign";
@@ -88,6 +87,7 @@ const CreateCampaign = () => {
                 />
               </div>
 
+
               <div className="w-full flex h-20 bg-purple-600 rounded-md">
                 <span className="hidden md:block">
                   <svg
@@ -131,6 +131,12 @@ const CreateCampaign = () => {
                   You will get 100% of the raised amount
                 </h1>
               </div>
+
+            <div className="space-y-1">
+              <label htmlFor="message" className="block text-sm font-bold text-white md:p-2">Campaign Description*</label>
+              <textarea type="text" name="message" rows={10} cols={50} placeholder="write about the project" className="w-full p-2 border bg-transparent rounded-lg focus:outline-none pl-4 resize-none text-white" />
+            </div>
+
 
               <div className="flex flex-wrap justify-between">
                 <div className="space-y-1 md:w-[48%] w-full pb-3 md:pb-0">

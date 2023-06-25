@@ -9,6 +9,11 @@ const Donate = () => {
         <form action="" className="space-y-4">
           <div className='font-bold text-purple-700 text-2xl border-b-2 mb-3 pb-2'>Donate: Bromuno</div>
           <div className="space-y-4">
+          <div className="space-y-1">
+              <label htmlFor="fullname" className="block text-sm font-bold text-purple-600">Full Name</label>
+              <input type="text" name="text" placeholder="Tosmel T" className="bg-purple-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />
+            </div>
+
             <div className="space-y-1">
               <label htmlFor="number" className="block text-sm font-bold text-purple-600">Currency</label>
               <input type="number" name="number" placeholder="Select crypto" className="bg-purple-50 w-full p-2 border rounded-3xl focus:outline-none pl-4 " />

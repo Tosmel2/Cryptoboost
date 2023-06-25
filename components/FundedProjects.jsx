@@ -32,7 +32,7 @@ const FundedProjects = () => {
   return (
     <>
     <main className='h-full w-full bg-[#120b29]'>
-        <section className='funding-projects md:py-4  w-[90%] md:w-[85%] mx-auto'>
+        <section id='features' className='funding-projects md:py-4  w-[90%] md:w-[85%] mx-auto'>
         <div className='text-center text-white py-10 px-3 md:px-0'>
           <h1 className='text-2xl md:text-4xl font-bold'>Funded Projects</h1>
           <p className='text-md md:text-lg'>Enter the cryptosphere with cryptoBoost</p>
@@ -109,17 +109,17 @@ export const AllProjects = () => {
     <>
       <div className='projects-container md:flex md:justify-between md:items-center w-full md:flex-wrap'>
 
-          <div className='project-card md:w-[32%] lg:w-[23%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
+        <div className='project-card md:w-[32%] lg:w-[23%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
             <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
             <Image
-            src={lmsImg}
+            src={roboImg}
             className='object-cover h-full w-full object-center rounded-2xl'
             quality={100}
             />
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2 text-black'>Web3 LMS</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>RoboWorks</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
               <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
@@ -148,14 +148,14 @@ export const AllProjects = () => {
           <div className='project-card md:w-[32%] lg:w-[23%] mb-5 rounded-2xl w-full h-[70vh] border border-solid border-white'>
             <div className='project-card-image relative rounded-2xl md:rounded-b-none h-1/2 w-full bg-slate-800'>
             <Image
-            src={roboImg}
+            src={lmsImg}
             className='object-cover h-full w-full object-center rounded-2xl'
             quality={100}
             />
             <p className='rounded-3xl px-5 py-1 text-sm text-center bg-white text-amber-500 font-bold absolute bottom-2 right-3'>Upcoming</p>
             </div>
             <div className='project-card-content rounded-b-xl bg-white px-2 h-1/2 w-full'>
-              <h2 className='text-2xl font-bold py-2 text-black'>RoboWorks</h2>
+              <h2 className='text-2xl font-bold py-2 text-black'>Web3 LMS</h2>
               <h3 className='font-semibold text-lg text-purple-800'>100 BNB</h3>
               <p className='font-semibold py-2 text-black'>progress(1%)</p>
               <div class="w-full bg-gray-200 rounded-full h-4 mb-2">

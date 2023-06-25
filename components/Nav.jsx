@@ -9,7 +9,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="mx-auto md:w-[90%] w-full  md:pt-5">
+    <div class="mx-auto md:w-[90%] w-full  md:py-3">
       {/* <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 md:pt-5"> */}
       <div class="relative flex items-center justify-between px-3">
         <a href="/" class="inline-flex items-center">
@@ -44,7 +44,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/about"
               class="font-medium tracking-wide text-white transition-colors duration-200"
             >
               ABOUT US
@@ -58,7 +58,7 @@ const Nav = () => {
           <li>
             <a
               href="/signin"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-3xl shadow-md bg-purple-600 focus:shadow-outline focus:outline-none"
+              class="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-purple-800 transition duration-200 rounded-3xl shadow-md bg-slate-300 focus:shadow-outline focus:outline-none"
               aria-label="Sign in"
               title="Sign in"
             >
@@ -118,7 +118,7 @@ const Nav = () => {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
+                        href="#discover"
                         class="font-medium tracking-wide text-white transition-colors duration-200 "
                       >
                         DISCOVER
@@ -126,7 +126,7 @@ const Nav = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#features"
                         aria-label="Our product"
                         title="Features"
                         class="font-medium tracking-wide text-white transition-colors duration-200"
@@ -162,7 +162,7 @@ const Nav = () => {
                     <li>
                       <a
                         href="/signin"
-                        class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-3xl shadow-md bg-purple-600 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-purple-800 transition duration-200 rounded-3xl shadow-md bg-slate-300 focus:shadow-outline focus:outline-none"
                         aria-label="Sign in"
                         title="Sign in"
                       >
