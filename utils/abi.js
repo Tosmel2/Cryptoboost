@@ -99,6 +99,11 @@ export const abi = [
         "internalType": "uint256",
         "name": "_campaignId",
         "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
       }
     ],
     "name": "donate",
